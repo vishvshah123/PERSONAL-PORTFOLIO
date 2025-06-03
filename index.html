@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/446b85a1cd.js" crossorigin="anonymous"></script> 
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+           <nav>
+            <img src="images/logo.png"class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+           </nav>
+             <div class="header-text">
+                <p>Web Developer</p>
+                <h1> Hi, I'm <span>Vishv Shah</span></h1>
+             </div>
+        </div>
+
+        <!-- You can add content here, like your name or navigation -->
+    </div>
+<!--------------ABOUT---------->
+<div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png" alt="User Photo">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p class="text-white text-lg leading-relaxed max-w-xl">
+  I'm Vishv Shah — a curious mind passionate about tech, growth, and Fitness. I'm currently pursuing Computer Science Engineering with a focus on Web Development, Cybersecurity, and everything in between.
+</p>
+<div class="tab-titles">
+    <p class="tab-links active-links" onclick="opentab('skills',)">Skills</p>
+    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+    <p class="tab-links" onclick="opentab('education')">Education</p>
+</div>
+<div class="table-contents active-tab " id="skills">
+    <ul>
+        <li> <span>Web Developer</span><br> HTML, CSS, Bootstrap, React.js, JavaScript, Tailwind CSS , jQuery</li>
+        <li> <span>Programming</span><br>Python,C++,Java</li>
+        <li> <span>Frameworks</span><br> Git, GitHub, FastAPI,Express.js, Node.js , MongoDB, PostgreSQL, Streamlit, Figma</li>
+    </ul>
+</div>
+<div class="table-contents" id="experience">
+    <ul>
+        <li> <span>2025-Current</span><br>Technical Team Member-DJS ISACA</li>
+        <li> <span>2025-Current</span><br>Executive Producer-TEDx-DJSCE</li>
+        <!-- <li> <span>Framew</span><br> Git, GitHub, FastAPI,Express.js, Node.js , MongoDB, PostgreSQL, Streamlit, Figma</li> -->
+    </ul>
+</div>
+<div class="table-contents" id="education">
+    <ul>
+        <li> <span>2027</span><br>B-Tech In CSE From D.J Sanghvi</li>
+        <li> <span>2025</span><br>Foundation In Data Science From IIT MADRAS</li>
+        <!-- <li> <span>Frameworks</span><br> Git, GitHub, FastAPI,Express.js, Node.js , MongoDB, PostgreSQL, Streamlit, Figma</li> -->
+    </ul>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------------------SERVICES-------------------- -->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Developer</h2>
+        <p>
+          I build responsive, modern websites using React.js, Tailwind CSS, and JavaScript. From personal portfolios to full-stack applications, I focus on clean design, performance, and seamless user experience.
+        </p>
+        <a href="#">Learn More</a>
+      </div>
+      <div>
+       <i class="fa-regular fa-handshake"></i>
+        <h2>Consulting Services</h2>
+        <p>
+          Having worked on real-world case studies like product strategy, technical leadership, and event tech solutions, I offer consulting for student teams and early-stage startups — turning raw ideas into actionable roadmaps.
+        </p>
+        <a href="#">Learn More</a>
+      </div>
+      <div>
+        <i class="fa-regular fa-heart"></i>
+        <h2>Gym Mentorship</h2>
+        <p>
+          From losing fat to building lean muscle, I mentor beginners through personalized workout plans, vegetarian diet guidance, and fitness habit coaching — all based on my 3-year transformation journey.
+        </p>
+        <a href="#">Learn More</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ---------PORTFOLIO---------- -->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My work</h1>
+    <div class="work-list">
+      
+      <div class="work">
+        <img src="images/work-1.png" alt="work 1">
+        <div class="layer">
+          <h3>CTF</h3>
+          <p>Helped in making Front end of Clash-of-Clans Theme Based CTF </p>
+          <a href="https://www.linkedin.com/posts/het-gohil-58373a259_ctf-cybersecurity-breachbytes2-ugcPost-7253085010407084032-_pX7?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaYsbQB6Mwvz68Dq4K2r_kqik_GeWW9aD4">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="images/work-2.png" alt="work 2">
+        <div class="layer">
+          <h3>Multilingual Translator</h3>
+          <p>Built a Multilingual Translator & Speech Processor without using Google API</p>
+          <a href="https://github.com/vishvshah123/streamlit-multilingual-translator-speech-processor">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="images/work-3.png" alt="flex pic">
+        <div class="layer">
+          <h3>3 Years of Work</h3>
+          <p>A perfect example of how consistency can transform an overweight individual into a fit one</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+    </div>
+    <a href="#" class="btn">See more</a>
+    <!-- ---------------CONTACT--------- -->
+  <div id="contact">
+  <div class="container">
+    <h1 class="sub-title">Contact Me</h1>
+    <div class="row">
+      <div class="contact-left">
+        <p><i class="fa-solid fa-envelope"></i> vishv0111@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> 8767062424</p>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/vishv__shah/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/vishv-shah-098913216/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a href="images/VISHV SHAH RESUME.pdf" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required />
+          <input type="email" name="Email" placeholder="Your Email" required />
+          <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+</body>
+<script>
+  const scriptURL = "https://script.google.com/macros/s/AKfycbzyGiNvI0V6HPX8ShQuZXqO9O1BBnODysDoMkuCFjtyh1lxjYYlaXX7DyAhNoq1dunA/exec"
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+  
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        }, 5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+  
+</script>
+
+<script src="index.js" charset="utf-8"></script>
+</body>
+</html>
